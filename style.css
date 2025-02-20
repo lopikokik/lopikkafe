@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", serif;
+}
+.container {
+margin: 0px 166px;
+}
+
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex   ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px ;
+    margin-right: 25px;
+    transition: color 0,3s linear;
+}
+.nav-item:hover {
+    color: darkred;
+}
+
+.cart {
+    position: relative;
+    border-right: 1px solid #ffffff;
+    padding-right: 10px;
+    height: 50px;
+}
+
+ .cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+ }
+
+ .numb {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0,3s linear;
+ }
+ .numb:hover {
+    color: darkred;
+ }
+
+ .phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+ }
+
+ .phone-holder {
+    display: flex;
+    align-items: center;
+ }
+
+ .button {
+    background-color: rgb(255, 94, 0);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: color 0,3s linear;
+ }
+
+ .button:hover {
+    background-color: rgb(0, 0, 0)  ;
+ }
+ .header-down {
+   position: relative;
+ }
+ .header-title {
+   color: darkorange;
+   font-family: "Tinos", serif;
+   font-size: 50px;
+   font-weight: 400;
+   text-align: center;
+   position: absolute;
+   left: 0;
+   margin-top: 222px;
+   margin-bottom: 12px;
+ }
+
+ .header-suptitle {
+color: #ffffff;
+font-size: 18px;
+font-family: "Open Sans", serif;
+ }
+
+ .header-suptitle:after {
+   position: absolute;
+   content: '';
+   height: 2px;
+   width: 62px;
+   background-color: #ffffff  ;
+   top: 127px;
+   left: 56px;
+ }
+
+ .header-suptitle:before {
+   position: absolute;
+   content: '';
+   height: 2px;
+   width: 62px;
+   background-color: #ffffff  ;
+   top: 127px;
+   right: 56px;
+ }
+ .header-button {
+   background-color: darkorange;
+   padding: 14PX 28px;
+   color: #ffffff;
+   font-size: 14px;
+   font-weight: 700;
+   font-family: "Open Sans", serif;
+ }
